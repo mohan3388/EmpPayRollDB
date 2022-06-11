@@ -21,3 +21,5 @@ select * from EmpPayRoll
 select Salary from EmpPayRoll where Name='mohan';
 
 select SatrtDate from EmpPayRoll WHERE (SatrtDate BETWEEN '2019-04-22' AND GETDATE());
+
+ Alter table EmpPayRoll Add Gender varchar(1);
