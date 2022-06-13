@@ -45,6 +45,6 @@ select SatrtDate from EmpPayRoll WHERE (SatrtDate BETWEEN '2019-04-22' AND GETDA
 
  --Insert Into EmpPayRoll(Name, Salary, SatrtDate,Gender) values('Ambika',23500, 2018-01-03);
 
-
+Alter table EmpPayRoll Add PhoneNumber bigint, Address varchar(50), Department varchar(30);
 
   
